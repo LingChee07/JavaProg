@@ -11,44 +11,36 @@
  
 // Intentionally incorrect program to demonstrate invalid Java identifiers.
 
-//class switch{
-class SwitchStatus{
+class switch{
 	String SwitchStatus = "On";
 	
 }
 
 public class IdentifierRules {
-//public static void 1start() { 
-    public static void start1() { 
+	
+    public static void 1start() { 
 		System.out.println("Static Method Output");
 	}
 
     public static void main(String[] args) {
 
-        //int 2ndPlace = 2;
-        int Place2nd = 2;
+        int 2ndPlace = 2;
 
-        //int first name = 10;
-        int firstName = 10;
+        int first name = 10;
 
-        //int price# = 99;
-        int price = 99;
-		//int user-name = 25;
-		int user_name = 25;
+        int price# = 99;
+		int user-name = 25;
 
-		//int class = 1;
-		int class_ = 1;
-		//int double = 3;
-		int double_ = 3;
+		int class = 1;
+		int double = 3;
 
-        //int Score = 10;
-        int score = 10;
+        int Score = 10;
         System.out.println(score);
 		
 		System.out.println("This program is executed after all errors are rectified.");
 
-        //1start();
-        start1();
+
+        1start();
     }
 
 }
